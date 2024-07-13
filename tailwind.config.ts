@@ -44,6 +44,14 @@ const config: Config = {
 						transform: "translate(-50%,-40%) scale(1)",
 					},
 				},
+				shimmer: {
+					from: {
+						backgroundPosition: "0 0",
+					},
+					to: {
+						backgroundPosition: "-200% 0",
+					},
+				},
 			},
 		},
 	},
